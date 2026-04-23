@@ -31,7 +31,7 @@ It follows REST principles with clear resource hierarchies, JSON responses, and 
 
 ---
 
-# Sample curl Commands
+## Sample curl Commands
 
 ### 1. API Discovery
 curl http://localhost:8080/smartCampus/api/v1
@@ -56,3 +56,8 @@ curl -X POST http://localhost:8080/smartCampus/api/v1/sensors \
 curl -X POST http://localhost:8080/smartCampus/api/v1/sensors/TEMP-001/readings \
 -H "Content-Type: application/json" \
 -d '{"value":25.5}'
+
+
+---
+
+## Report
