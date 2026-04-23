@@ -1,3 +1,4 @@
+# Smart Campus API
 ## Overview
 
 This project implements a RESTful API for a university Smart Campus system using JAX-RS. The API manages Rooms and their associated Sensors (e.g. temperature, CO2 and occupancy), providing a structured interface for accessing and updating campus data.
@@ -15,9 +16,9 @@ It follows REST principles with clear resource hierarchies, JSON responses, and 
 
 3. Ensure Apache Tomcat 9 is configured as the server in NetBeans.
 
-4. Right-click the project and select **Clean and Build** (this will download all required dependencies using Maven).
+4. Right-click the project and select 'Clean and Build' (this will download all required dependencies using Maven).
 
-5. Right-click the project again and select **Run**.
+5. Right-click the project again and select 'Run'.
 
 6. NetBeans will build the project, deploy it to Tomcat, and start the server.
 
@@ -30,7 +31,7 @@ It follows REST principles with clear resource hierarchies, JSON responses, and 
 
 ---
 
-## Sample curl Commands
+# Sample curl Commands
 
 ### 1. API Discovery
 curl http://localhost:8080/smartCampus/api/v1
