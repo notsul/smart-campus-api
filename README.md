@@ -1,4 +1,4 @@
-# Smart Campus API
+# SmartCampus API
 ## Overview
 
 This project implements a RESTful API for a university Smart Campus system using JAX-RS. The API manages Rooms and their associated Sensors (temperature, CO2 and occupancy), providing an interface for accessing and updating data.
