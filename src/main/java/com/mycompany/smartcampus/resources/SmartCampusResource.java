@@ -27,9 +27,9 @@ public class SmartCampusResource {
         Admin admin = new Admin("John Doe", "john_doe@smartcampus.com");
         
         Map<String, String> resources = new HashMap<>();
-        resources.put("rooms", "/api/v1/rooms");
-        resources.put("sensors", "/api/v1/sensors");
-        resources.put("readings", "/api/v1/sensors/{sensorId}/readings");
+        resources.put("rooms", "/smartCampus/api/v1/rooms");
+        resources.put("sensors", "/smartCampus/api/v1/sensors");
+        resources.put("readings", "/smartCampus/api/v1/sensors/{sensorId}/readings");
         
         return new ApiDiscovery("Smart Campus API", "v1", admin, resources);
 
